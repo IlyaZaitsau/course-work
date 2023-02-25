@@ -1,0 +1,21 @@
+.hamburger {
+  display: none;
+  position: relative;
+  left: 61px;
+  top: 23px;
+
+  &__line {
+    width: 24px;
+    height: 3px;
+    background-color: #ecf0f1;
+    display: block;
+    margin: 6px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px
+  }
+
+  &:hover {
+    cursor: pointer
+  }
+}

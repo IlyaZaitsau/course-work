@@ -1,13 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Hind+Siliguri:wght@500;600&family=Kaushan+Script&family=Montserrat:wght@700&family=Open+Sans:wght@300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;900&family=Roboto&display=swap"
+    rel="stylesheet">
+  <title>Course work</title>
   <link rel="stylesheet" href="./styles/app.scss">
 </head>
-<body>
 
+<body>
+  <!-- Header logo and menu -->
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="logo">
+          <img src="./images/logo.svg" alt="Mogo" class="logo__img">
+        </a>
+        <div class="burger__menu">
+          <div class="hamburger">
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+          </div>
+          <nav class="nav">
+            <a class="nav__link" href="#">About</a>
+            <a class="nav__link" href="#">service</a>
+            <a class="nav__link" href="#">work</a>
+            <a class="nav__link" href="#">blog</a>
+            <a class="nav__link" href="#">Contact</a>
+            <a class="nav__link nav__cart" href="#">
+              <img class="nav__link_icon" src="./images/cart.svg" alt="">
+            </a>
+            <a class="nav__link nav__seach" href="#">
+              <img class="nav__link_icon" src="./images/search.svg" alt="">
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- First section, banner and intro -->
+    <section class="banner">
+      <div class="container">
+        <div class="content">
+          <h3 class="content__subtitle">Creative Template</h3>
+          <h2 class="content__title">Welcome <br>to MoGo</h2>
+          <div class="content__separator"></div>
+          <div class="content__btn">
+            <button class="btn content__button">learn more</button>
+          </div>
+        </div>
+      </div>
+      <div class="intro">
+        <div class="container">
+          <div class="intro__content">
+            <div class="intro__row">
+              <div class="intro__link_border"></div>
+              <a href="" class="intro__link">01 <span>intro</span></a>
+            </div>
+            <div class="intro__row">
+              <div class="intro__link_border"></div>
+              <a href="" class="intro__link">02 <span>worck</span></a>
+            </div>
+            <div class="intro__row">
+              <div class="intro__link_border"></div>
+              <a href="" class="intro__link">03 <span>about</span></a>
+            </div>
+            <div class="intro__row">
+              <div class="intro__link_border"></div>
+              <a href="" class="intro__link">04 <span>contacts</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>

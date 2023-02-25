@@ -1,0 +1,44 @@
+.nav {
+  &__link {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 18px;
+    width: 85px;
+    position: relative;
+    text-decoration: none;
+
+    &:hover {
+      color: #F4BF87;
+    }
+
+    &:last-child {
+      margin-right: 15px;
+    }
+
+    &_icon {
+      height: 24px;
+
+      &:hover {
+        background-image: #F4BF87;
+      }
+    }
+
+    &::after {
+      content: '';
+      height: 1px;
+      background-color: #F4BF87;
+      position: absolute;
+      bottom: -5px;
+      left: 50%;
+      right: 50%;
+      transform: translate(-50%, -50%);
+      transition: all .3s;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}

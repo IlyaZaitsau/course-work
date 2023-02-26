@@ -5,5 +5,9 @@
     justify-content: space-between;
     height: 100px;
     gap: 500px;
+
+    @media (max-width: 1024px) {
+      gap: 340px;
+    }
   }
 }

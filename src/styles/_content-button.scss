@@ -7,6 +7,12 @@
     margin-top: 74px;
     margin-bottom: 116px;
 
+    @media (max-width: 1024px){
+      margin-top: 50px;
+      margin-bottom: 78px;
+      padding: 9px 75px;
+    }
+
     &:hover {
       background-color: #fff;
       color: #E4BE8D;

@@ -1,0 +1,111 @@
+.team {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+
+  &__col {
+    background-color: #95E1D3;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-bottom: 16px;
+      background: none;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__card {
+    position: relative;
+    transition: all .2s linear;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%,
+          rgba(233, 130, 131, 0.9) 100%);
+      //   width: 100%;
+      opacity: 0;
+      transition: opacity .2s linear;
+
+      @media (max-width: 768px) {
+        opacity: 1;
+        position: inherit;
+        display: inline-block;
+        min-height: 83px;
+        max-width: 370px;
+      }
+    }
+
+    &:hover {
+      transform: translate(-15px, -15px);
+
+      @media (max-width: 1024px) {
+        transform: translate(-5px, -5px);
+      }
+
+      @media (max-width: 768px) {
+        transform: none;
+      }
+    }
+
+    &:hover::after {
+      opacity: 1;
+    }
+  }
+
+  &__card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 2;
+    font-weight: 500;
+    font-size: $font-size-base;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .2s linear;
+
+    @media (max-width: 1024px) {
+      font-size: $font-size-sm;
+    }
+
+    @media (max-width: 768px) {
+      opacity: 1;
+      flex-direction: row;
+      align-items: flex-end;
+      padding-bottom: 31px;
+      justify-content: flex-start;
+    }
+  }
+
+  &__card:hover &__card-text {
+    opacity: 1;
+  }
+
+  &__card-icon {
+    width: 30px;
+    height: 36px;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  &__card-link {
+    text-decoration: none;
+    color: #fff
+  }
+}

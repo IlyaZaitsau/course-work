@@ -1,0 +1,11 @@
+.separator {
+  display: inline-block;
+  margin-top: 44px;
+  width: 170px;
+  border: 2px solid #FFFFFF;
+
+  @media (max-width: 1024px){
+    margin-top: 29px;
+    width: 115px;
+  }
+}

@@ -6,12 +6,21 @@
     justify-content: center;
     flex-direction: row;
     gap: 30px;
+
+    @media (max-width: 1024px) {
+      gap: 20px;
+    }
   }
 
   &__row {
     width: 270px;
     padding: 21px 0;
     border-top: 4px solid #F9EFCF;
+
+    @media (max-width: 1024px) {
+      padding: 7px 0;
+      width: 233px;
+    }
   }
 
   &__link {
@@ -32,6 +41,10 @@
       top: 0;
       left: 170px;
       transition: all .3s;
+
+      @media (max-width: 1024px) {
+        left: 14px;
+      }
 
       &:hover {
         opacity: 1;

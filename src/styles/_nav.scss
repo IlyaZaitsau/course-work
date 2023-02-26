@@ -1,7 +1,7 @@
 .nav {
   &__link {
     font-weight: 600;
-    font-size: 14px;
+    font-size: $font-size-xs;
     color: #fff;
     text-transform: uppercase;
     padding: 0 18px;
@@ -18,9 +18,11 @@
     }
 
     &_icon {
-      height: 24px;
+      height: 17px;
 
       &:hover {
+        stroke: #F4BF87;
+        fill: #F4BF87;
         background-image: #F4BF87;
       }
     }
@@ -39,6 +41,31 @@
 
     &:hover::after {
       width: 100%;
+    }
+  }
+
+  &__cart {
+    position: absolute;
+    top: 42px;
+    line-height: 0.27;
+    width: 25px;
+    padding: 0 15px;
+
+    @media (max-width: 1024px){
+      padding: 0 4px;
+    }
+  }
+
+  &__seach {
+    position: absolute;
+    top: 42px;
+    right: 35px;
+    line-height: 0.27;
+    width: 25px;
+
+    @media (max-width: 1024px){
+      right: -80px;
+      padding: 0 4px;
     }
   }
 }

@@ -1,0 +1,33 @@
+.footer {
+  &__blogs {
+    padding-right: 30px;
+  }
+
+  &__blogs-col {
+    padding-bottom: 20px;
+  }
+
+  &__blogs-title {
+    text-transform: uppercase;
+    font-size: $font-size-base;
+    padding: 37px 0;
+    font-weight: 700;
+  }
+
+  &__blogs-img {
+    display: inline-block;
+  }
+
+  &__blogs-text {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: $font-size-sm;
+    line-height: 21px;
+    color: #2D3033;
+  }
+
+  &__blogs-date {
+    padding: 8px 0;
+  }
+}

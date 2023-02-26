@@ -1,0 +1,114 @@
+.footer {
+  padding-top: 42px;
+
+  &__logo {
+    padding: 26px 0 12px 0;
+
+  }
+
+  &__logo-img {
+    padding-bottom: 42px;
+  }
+
+  &__text {
+    color: #C6CBCD;
+  }
+
+  &__promo {
+    padding: 42px 0 15px 0;
+    border-bottom: 1px solid #C6CBCD;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: $font-size-sm;
+
+    & span {
+      font-size: $font-size-lg;
+      font-style: italic;
+      font-weight: 700;
+    }
+
+    & sub {
+      font-weight: 700;
+    }
+  }
+
+  &__social {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  &__social-item:first-child {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    padding-top: 4px;
+  }
+
+  &__form {
+    padding-top: 54px;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  &__form-input {
+    border: none;
+    border: 1px solid #C6CBCD;
+    background: none;
+    outline: none;
+    padding: 16px 10px;
+    font-size: $font-size-sm;
+    margin-right: -5px;
+    transition: all .1s ease-in-out;
+
+    @media (max-width: 1024px) {
+      padding: 7px 10px;
+    }
+
+    @media (max-width: 768px) {
+      margin-bottom: 24px;
+      padding: 7px 33px;
+    }
+
+    &:focus {
+      box-shadow: 0px 0px 10px 2px #c6cbcdc2 inset;
+    }
+
+    &::placeholder {
+      color: #C6CBCD;
+      text-align: center;
+      font-size: $font-size-sm;
+    }
+  }
+
+  &__form-button {
+    border: none;
+    padding: 17px 25px;
+    font-weight: 700;
+    font-size: $font-size-sm;
+    color: #fff;
+    background: #95E1D3;
+    transition: all .2s ease-in-out;
+
+    @media (max-width: 1024px) {
+      padding: 8px 10px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 8px 102px;
+    }
+
+    &:hover {
+      background: #5C958A;
+    }
+
+    &:active {
+      background-color: #2d6c60;
+    }
+  }
+}

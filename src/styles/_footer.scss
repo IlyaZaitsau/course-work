@@ -1,0 +1,28 @@
+.footer {
+  background: #F8F8F8;
+
+  &__row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 42px;
+  }
+
+  &__col-first {
+    width: 370px;
+  }
+
+  &__blogs-col {
+    width: 470px;
+    display: flex;
+    gap: 20px;
+  }
+
+  &__copyright {
+    text-align: center;
+    border-top: 1px solid #C6CBCD;
+    padding: 15px 0;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}

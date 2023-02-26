@@ -1,0 +1,33 @@
+.work {
+  &__content {
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin-top: 84px;
+    padding: 18px 0;
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $font-size-md;
+    line-height: 44px;
+    color: #2D3033;
+  }
+
+  &__title {
+    font-weight: 900;
+    font-size: $font-size-lg;
+    line-height: 42px;
+    text-transform: uppercase;
+    padding: 19px 0;
+  }
+
+  &__separator {
+    border: 4px solid #F38281;
+    margin-top: 24px;
+  }
+  &__text {
+    padding: 40px 0;
+    margin-bottom: 42px;
+  }
+}

@@ -1,0 +1,41 @@
+.design {
+  &__inner {
+    margin-top: 59px;
+    padding-bottom: 54px;
+  }
+
+  &__tablet {
+    position: relative;
+  }
+
+  &__frame-tablet {
+    position: relative;
+    z-index: 10;
+  }
+
+  &__tablet-bg {
+    position: absolute;
+    z-index: 9;
+    top: 15px;
+    left: 255px;
+  }
+
+  &__phone {
+    position: relative;
+  }
+
+  &__frame-phone {
+    position: absolute;
+    bottom: -100px;
+    right: 200px;
+    z-index: 14;
+  }
+
+  &__phone-bg {
+    position: absolute;
+    bottom: -84px;
+    right: 206px;
+    z-index: 13;
+  }
+
+}

@@ -433,4 +433,96 @@ body {
 .team__card-link {
   text-decoration: none;
   color: #fff;
+}
+
+.futures {
+  background: #95E1D3;
+  margin-top: 108px;
+}
+.futures__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+.futures__col {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  height: 250px;
+  width: 234px;
+  text-align: center;
+}
+.futures__col_number {
+  color: #fff;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+.futures__col_text {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.services__content {
+  text-align: center;
+}
+.services__subtitle {
+  margin-top: 45px;
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  color: #2D3033;
+}
+.services__title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin-top: 45px;
+}
+.services__separator {
+  border: 4px solid #F38281;
+  margin-top: 24px;
+}
+
+.services {
+  margin-top: 88px;
+}
+.services__row {
+  margin: 80px 0 91px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 140px 30px;
+}
+.services__col {
+  width: calc(33.333% - 30px);
+  position: relative;
+  padding-left: 100px;
+}
+.services__col_cover {
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  left: 0;
+}
+.services__col_title {
+  color: #2D3033;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+.services__col_text {
+  font-size: 18px;
 }/*# sourceMappingURL=app.css.map */

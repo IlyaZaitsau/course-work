@@ -4,10 +4,9 @@
   &__logo {
     padding: 26px 0 12px 0;
 
-  }
-
-  &__logo-img {
-    padding-bottom: 42px;
+    &_img {
+      padding-bottom: 42px;
+    }
   }
 
   &__text {
@@ -38,12 +37,14 @@
 
   }
 
-  &__social-item:first-child {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    padding-top: 4px;
+  &__social {
+    &_item:first-child {
+      font-style: italic;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 15px;
+      padding-top: 4px;
+    }
   }
 
   &__form {
@@ -56,7 +57,7 @@
     }
   }
 
-  &__form-input {
+  &__input {
     border: none;
     border: 1px solid #C6CBCD;
     background: none;
@@ -86,7 +87,7 @@
     }
   }
 
-  &__form-button {
+  &__button {
     border: none;
     padding: 17px 25px;
     font-weight: 700;

@@ -1,5 +1,5 @@
 .work {
-  &__content {
+  &__inner {
     text-align: center;
   }
 
@@ -26,7 +26,7 @@
     border: 4px solid #F38281;
     margin-top: 24px;
   }
-  &__text {
+  &__promo {
     padding: 40px 0;
     margin-bottom: 42px;
   }

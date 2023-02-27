@@ -19,19 +19,23 @@
     text-align: center;
   }
 
-  &__col_number {
-    color: #fff;
-    font-weight: 700;
-    font-size: $font-size-xl;
-    line-height: 75px;
-    padding-top: 50px;
-    padding-bottom: 15px;
+  &__col {
+    &_number {
+      color: #fff;
+      font-weight: 700;
+      font-size: $font-size-xl;
+      line-height: 75px;
+      padding-top: 50px;
+      padding-bottom: 15px;
+    }
   }
 
-  &__col_text {
-    color: #fff;
-    font-weight: 400;
-    font-size: $font-size-base;
-    line-height: 28px;
+  &__col {
+    &_text {
+      color: #fff;
+      font-weight: 400;
+      font-size: $font-size-base;
+      line-height: 28px;
+    }
   }
 }

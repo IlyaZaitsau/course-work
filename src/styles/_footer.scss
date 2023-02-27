@@ -3,18 +3,25 @@
 
   &__row {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     margin-bottom: 42px;
   }
 
-  &__col-first {
-    width: 370px;
+  &__col {
+    &_first {
+      width: 370px;
+    }
   }
 
-  &__blogs-col {
-    width: 470px;
-    display: flex;
-    gap: 20px;
+  &__blogs {
+    padding-right: 20px;
+
+    &_col {
+      width: 470px;
+      display: flex;
+      gap: 20px;
+      padding-bottom: 20px;
+    }
   }
 
   &__copyright {
